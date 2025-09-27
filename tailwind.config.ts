@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -58,10 +59,27 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-secondary": "var(--gradient-secondary)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-eco": "var(--gradient-eco)",
+      },
+      boxShadow: {
+        eco: "var(--shadow-eco)",
+        card: "var(--shadow-card)",
+        glow: "var(--shadow-glow)",
+      },
+      transitionProperty: {
+        eco: "var(--transition-eco)",
+        bounce: "var(--transition-bounce)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        "2xl": "1rem",
+        "3xl": "1.5rem",
       },
       keyframes: {
         "accordion-down": {
