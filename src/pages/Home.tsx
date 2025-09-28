@@ -52,25 +52,7 @@ const Home = () => {
               </Button>
             </Link>
           </div>
-          
-          {/* Impact Counter */}
-          <div className="mt-12 bg-background/10 backdrop-blur-sm rounded-3xl p-6 border border-primary-foreground/20">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary-foreground">24.5k</div>
-                <div className="text-primary-foreground/80">kg CO₂ Avoided</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary-foreground">1,247</div>
-                <div className="text-primary-foreground/80">Local Businesses Supported</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary-foreground">8,932</div>
-                <div className="text-primary-foreground/80">Eco Travelers Connected</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>  
       </section>
 
       {/* Features Section */}
